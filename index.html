@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin Price Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Bitcoin Price Tracker</h1>
+        <p>Current Bitcoin price data fetched from CoinDesk API.</p>
+        <p>-----------------------------------------------------</p>
+        <p id="disclaimer"></p>
+      </div>
+
+      <div class="price-card">
+        <h2 id="currency">USD</h2>
+        <p id="price">Loading...</p>
+        <small>Last updated: <span id="time">-</span></small>
+      </div>
+
+      <div class="buttons">
+        <button id="usd-btn">USD</button>
+        <button id="gbp-btn">GBP</button>
+        <button id="eur-btn">EUR</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
